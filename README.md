@@ -2,41 +2,23 @@
 
 
 西南石油大学校园网命令行登录工具
+
+- 直接运行，无需配置环境
 - 支持linux、maxOS、windows
 - 基于Go语言实现
 
-Related Projects
-
-- macOS客户端: [SrunBar](https://github.com/vouv/SrunBar)
+感谢[vouv/srun](https://github.com/vouv/srun)
 
 ## Install
 
-1. Homebrew(macOS only)
-
-```bash
-$ brew tap vouv/tap
-$ brew install srun
-$ srun config
-```
-
-2. Curl(for Linux amd64) [Release](https://github.com/vouv/srun/releases/latest)
-
 ```bash
 # linux
-$ curl -L -o srun https://github.com/vouv/srun/releases/latest/download/srun-linux
+$ curl -L -o srun https://github.com/hempflower/srun/releases/latest/download/srun-linux
 $ chmod +x ./srun
 $ ./srun config
 ```
 
-3. go get
-
-如果已经[安装并配置GO环境](https://golang.google.cn/doc/install), 执行如下命令即可
-
-```bash
-$ go install github.com/vouv/srun/cmd/srun@latest
-$ $GOPATH/bin/srun config
-```
-
+For windows user, just download `srun-windows.exe` and execute it from command line.
 
 ## Usage
 
@@ -65,6 +47,10 @@ $ srun info
 ```
 
 ## Update Log
+
+2023.9.13
+
+- 将认证地址修改为西南石油大学的地址
 
 2020.12.18
 
