@@ -96,7 +96,7 @@ $ srun info
 先克隆项目
 
 ```
-$ git clone https://github.com/vouv/srun && cd srun
+$ git clone https://github.com/hempflower/srun && cd srun
 ```
 
 macOS下编译
