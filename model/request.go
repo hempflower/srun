@@ -21,7 +21,7 @@ func Login(username, password string, acid int) url.Values {
 		"ip":       {""},
 		"info":     {},
 		"chksum":   {},
-		"n":        {"200"},
+		"n":        {"100"},
 		"type":     {"1"},
 	}
 }

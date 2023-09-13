@@ -10,7 +10,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-const repo = "https://github.com/vouv/srun/releases/latest"
+const repo = "https://github.com/hempflower/srun/releases/latest"
 const updateTimeout = 3 * time.Second
 
 var client = http.Transport{
