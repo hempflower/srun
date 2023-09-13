@@ -17,7 +17,7 @@ $ chmod +x ./srun
 $ ./srun config
 ```
 
-For windows user, just download `srun-windows.exe` and execute it from command line.
+For windows user, just download `srun.exe` and execute it from command line.
 
 ## Usage
 
